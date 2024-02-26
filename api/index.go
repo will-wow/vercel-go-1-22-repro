@@ -5,6 +5,6 @@ import (
 	"net/http"
 )
 
-func Handler(w http.ResponseWriter, r *http.Request) {
+func Index(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "hello from go")
 }

@@ -1,4 +1,4 @@
-package one22
+package api
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func Handler(w http.ResponseWriter, r *http.Request) {
+func One22(w http.ResponseWriter, r *http.Request) {
 
 	var response []string
 
